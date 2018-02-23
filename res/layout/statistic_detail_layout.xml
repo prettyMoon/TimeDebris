@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/fitStatusBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#448AFF"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#448AFF"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="6dp"
+            android:background="#448AFF"
+            android:src="@drawable/previous_white" />
+
+        <Button
+            android:id="@+id/btnMode"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:background="#448AFF"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/statistic_mode_dropdown_icon"
+            android:text="今日纪录"
+            android:textColor="#EEEEEE"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ExpandableListView
+        android:id="@+id/task_detail_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#E2E8EA"
+        android:dividerHeight="1px"
+        android:listSelector="#DDDDDD" >
+    </ExpandableListView>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/serach"
+        android:showAsAction="always|withText"
+        android:title="@string/actionbar_serach">
+    </item>
+
+</menu>

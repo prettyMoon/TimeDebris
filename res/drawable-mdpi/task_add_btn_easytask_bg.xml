@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="false" android:drawable="@drawable/task_add_btn_easytask"/>
+    <item android:state_pressed="true" android:drawable="@drawable/task_add_btn_easytask_pressed"/>
+	
+</selector>

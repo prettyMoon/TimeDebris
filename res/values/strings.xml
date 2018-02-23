@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">碎念</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="timer_start">开始工作</string>
+    <string name="timer_stop">休息一下</string>
+    <string name="timer_done">完成任务</string>
+    <string name="btn_five_minutes_text">五分钟\n推荐文章</string>
+    <string name="btn_ten_minutes_text">十分钟\n美文赏析</string>
+    <string name="recommend_paragraph">推荐书摘</string>
+    <string name="popular_book">热评图书</string>
+    <string name="actionbar_serach">搜索</string>
+    <string name="tomatos_word">已完成的番茄数: </string>
+    <string name="read_activity_introduction">简介 </string>
+    <string name="read_activity_paragraph">书摘 </string>
+    <string name="read_activity_great">赞 </string>
+    <string name="read_activity_greatNumber">已有0人为此书点赞 </string>
+
+</resources>

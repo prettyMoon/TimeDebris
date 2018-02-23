@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/mode1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEEEEC"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/wifi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="网络不太给力"
+            android:textColor="#898989"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:layout_marginTop="10dp"
+            android:text="请网络良好时重试"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/netRetry"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:background="#3190E8"
+            android:text="重新加载"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/mode2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_five_minutes"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/btn_src"
+                    android:gravity="center"
+                    android:text="@string/btn_five_minutes_text"
+                    android:textSize="15sp" >
+                </Button>
+
+                <Button
+                    android:id="@+id/btn_ten_minutes"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/btn_src"
+                    android:gravity="center"
+                    android:text="@string/btn_ten_minutes_text"
+                    android:textSize="15sp" >
+                </Button>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#EEEEE0" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="10dp"
+                android:text="@string/recommend_paragraph"
+                android:textSize="14sp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#ffffff" />
+
+            <ListView
+                android:id="@+id/listview_paragraph"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff" >
+            </ListView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#D3D3D3" >
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_more01"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/tasklist_parent_drawable"
+                android:gravity="center"
+                android:text="更多  >"
+                android:textColor="#FFD700"
+                android:textSize="15sp" >
+            </Button>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#D3D3D3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="10dp"
+                android:text="@string/popular_book"
+                android:textSize="15sp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#ffffff" />
+
+            <ListView
+                android:id="@+id/listview_book"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff" >
+            </ListView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#D3D3D3" >
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_more02"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/tasklist_parent_drawable"
+                android:gravity="center"
+                android:text="更多  >"
+                android:textColor="#FFD700"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

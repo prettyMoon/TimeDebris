@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/scro_artical"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/single_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="23sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/single_writer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="八月长安"
+            android:textColor="#ABABAB"
+            android:textSize="19sp" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/image_picture01"
+            android:layout_width="320dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:src="@drawable/bookload" />
+
+        <TextView
+            android:id="@+id/single_content1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.5"
+            android:padding="15dp"
+            android:text=""
+            android:textScaleX="1.0"
+            android:textSize="15sp"
+            android:typeface="serif" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/image_picture02"
+            android:layout_width="320dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:src="@drawable/bookload" />
+
+        <TextView
+            android:id="@+id/single_content2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.5"
+            android:padding="15dp"
+            android:text=""
+            android:textScaleX="1.0"
+            android:textSize="15sp"
+            android:typeface="serif" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/image_picture03"
+            android:layout_width="320dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:src="@drawable/bookload" />
+
+        <TextView
+            android:id="@+id/single_content3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.5"
+            android:padding="15dp"
+            android:text=""
+            android:textScaleX="1.0"
+            android:textSize="15sp"
+            android:typeface="serif" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_praise01"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/praise01" />
+
+        <TextView
+            android:id="@+id/PriseNumber01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="已有0人为此书点赞！"
+            android:textColor="#B7B7B7" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tasklist_parent_drawable"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/week_marker"
+            android:layout_width="12dp"
+            android:layout_height="8dp"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/week_parent_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#455A64"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/week_parent_taskcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="#CCCCCC"
+        android:textSize="14sp" />
+
+</LinearLayout>
